@@ -41,5 +41,5 @@ if(defined('WP_CLI') && WP_CLI){
       }
     }
   }
-  WP_CLI::add_command('ensure_major_version', "\EnsureMajorVersion");
+  WP_CLI::add_command('ensure-major-version', "\EnsureMajorVersion");
 }
