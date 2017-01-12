@@ -12,10 +12,10 @@ while still updating to the latest minor release which is compatible.
 
 # Examples
 
-`wp ensure_major_version ensure 4.7` would install the latest minor version
+`wp ensure-major-version ensure 4.7` would install the latest minor version
 within the 4.7 major version. At the time of writing this command would install
 version 4.7.1 of WordPress.
 
-`wp ensure_major_version ensure 4.3` will install force WordPress to the latest
+`wp ensure-major-version ensure 4.3` will install force WordPress to the latest
 minor release within the 4.3 major. At the time of writing this command would
 install version 4.3.7 of WordPress.
