@@ -1,7 +1,7 @@
 {
     "name": "level-level/wp-cli-ensure-major-version",
     "description": "Adds a command for WP-CLI to ensure a WordPress install is on the latest minor release of a major version. Edit",
-    "type": "wordpress-muplugin",
+    "type": "wp-cli-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -9,5 +9,10 @@
             "email": "info@level-level.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "files": [
+            "ll-plugin-list.php"
+        ]
+    }
 }
